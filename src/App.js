@@ -10,12 +10,14 @@ class App extends Component {
     return (
       <div className="App">
         My First React App - MyToDo Application
-        <Counter by={1}></Counter>
+        <Counter></Counter>
         <Counter by={5}></Counter>
         <Counter by={10}></Counter>
+        
       </div>
     );
   }
 }
+
 
 export default App;
