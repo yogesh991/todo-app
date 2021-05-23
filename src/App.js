@@ -11,9 +11,6 @@ class App extends Component {
       <div className="App">
         My First React App - MyToDo Application
         <Counter></Counter>
-        <Counter by={5}></Counter>
-        <Counter by={10}></Counter>
-        
       </div>
     );
   }
